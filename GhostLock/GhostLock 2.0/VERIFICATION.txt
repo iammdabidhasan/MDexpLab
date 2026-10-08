@@ -1,0 +1,38 @@
+GhostLock 2.0 Verification Notes
+================================
+
+Build date: 2026-10-07
+Source folder: Source
+Top-level installer: Setup.exe
+Top-level app exe: GhostLock.exe
+
+Verification performed:
+
+1. Parsed ghostlock.py with Python AST successfully.
+2. Ran unit tests successfully:
+   py -m unittest discover -s tests
+3. Built fresh executables successfully:
+   powershell -NoProfile -ExecutionPolicy Bypass -File .\build.ps1
+4. Re-tested the packaged Source copy successfully:
+   py -m unittest discover -s tests
+5. Fixed and rebuilt the first-run setup panel with vertical scrolling for
+   small resized windows.
+6. Removed extra floating-widget chrome so the desktop control uses only the
+   GhostLock icon image.
+7. Changed installer launch behavior to open password setup with --setup
+   instead of starting the normal widget run path.
+8. Updated modal-window behavior so Settings, Change Password, and Help open
+   reliably from the hidden-root floating widget.
+9. Added install-time running-instance detection so Setup.exe stops cleanly if
+   GhostLock is already open.
+10. Made Settings scrollable for small windows and display-scaling edge cases.
+11. Updated release documentation to match the current installer setup flow.
+
+Important build outputs:
+
+- Setup.exe
+- GhostLock.exe
+- Release\Setup.exe
+- Release\GhostLock.exe
+
+Use CHECKSUMS_SHA256.txt to verify file integrity.

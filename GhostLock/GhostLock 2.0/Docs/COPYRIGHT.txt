@@ -1,0 +1,22 @@
+GhostLock Copyright And Attribution
+===================================
+
+Product: GhostLock
+Version: 2.0.0
+Publisher: MDexpLab
+Creator and owner: MD ABID HASAN
+
+Copyright (c) 2026 MD ABID HASAN / MDexpLab.
+
+GhostLock is released as open-source software under the MIT License unless a
+future official release states otherwise. You may use, study, modify, and share
+the software under the license terms in LICENSE.
+
+Please keep creator and publisher attribution in source distributions. Modified
+builds should clearly identify what changed and should not be represented as
+official MDexpLab releases unless approved by the owner.
+
+GhostLock is provided as a transparent soft-lock utility for personal desktop
+privacy and convenience. It is not a replacement for Windows account security,
+BitLocker, device encryption, enterprise endpoint controls, or physical device
+security.
