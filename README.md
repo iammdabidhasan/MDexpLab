@@ -1,10 +1,10 @@
-# GhostLock 2.0
+# GhostLock 2.1
 
 GhostLock is a Windows desktop soft-lock utility created by **MD ABID HASAN** and published under **MDexpLab**. It adds a transparent privacy layer over the desktop with a small floating control button, password unlock, emergency password unlock, and security-question recovery.
 
 GhostLock is open source. Everyone is welcome to inspect it, use it, improve it, and contribute fixes or features that make the tool more useful for the community.
 
-## What Is New In 2.0
+## What Is New In 2.1
 
 - Single-click the floating GhostLock icon to open the options panel.
 - Floating icon now uses the GhostLock artwork from `assets/ghostlock.ico` / `assets/ghostlock.png`.
